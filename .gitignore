@@ -1,0 +1,11 @@
+# ignore everything
+*
+
+# but don't ignore files ending with slash = directories
+!*/
+
+# and don't ignore files ending with ".gitignore"
+!*.gitignore
+
+# and don't ignore files ending with ".cpp"
+!*.cpp
